@@ -49,7 +49,7 @@ p {
   font-size: 24px;
   line-height: 1.5;
   font-weight: 300;
-  color: #272142;
+  color: var(--teriary-color);
 }
 
 .hero h3 {
@@ -60,6 +60,35 @@ p {
   color: var(--teriary-color);
 }
 
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-family: var(--heading-font);
+  font-size: 66px;
+  font-weight: bold;
+  color: var(--teriary-color);
+}
+
+.about-section h2 {
+  font-family: var(--default-font);
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0;
+  color: var(--teriary-color);
+}
+
+.about-section p {
+  font-family: var(--default-font);
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 300;
+  color: var(--teriary-color);
+}
+
+.about-section-content {
+  margin: 30px;
+}
 .btn-branding {
   background-color: var(--primary-color);
   border-radius: 5px;
@@ -99,6 +128,11 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
 
