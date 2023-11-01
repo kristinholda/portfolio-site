@@ -66,7 +66,7 @@ nav li.active a {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
-  padding: 200px 50px;
+  padding: 100px 50px;
 }
 
 .hero h1 {
@@ -94,7 +94,7 @@ nav li.active a {
 
 .about-section,
 .work-section {
-  padding: 160px 20px;
+  padding: 60px 20px;
 }
 .about-section h1,
 .work-section h1 {

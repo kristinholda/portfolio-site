@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Kristin Holda, front end developer from the U.S."
+      content="About Kristin Holda, front end developer from the U.S."
     />
     <title>About Me | Kristin Holda -- Front-end Developer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -42,26 +42,27 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <a href="/">
+        <a href="/" title="Homepage">
           <p class="logo d-none d-md-block">Kristin Holda</p>
           <p class="logo d-block d-md-none">KH</p>
         </a>
         <ul>
           <li>
-            <a href="/"> Home</a>
+            <a href="/" title="Homepage"> Home</a>
           </li>
           <li class="active">
-            <a href="/about.html"> About</a>
+            <a href="/about.html" title="About"> About</a>
           </li>
           <li>
-            <a href="/work.html"> Work</a>
+            <a href="/work.html" title="Work"> Work</a>
           </li>
           <li>
-            <a href="/contact.html"> Contact</a>
+            <a href="/contact.html" title="Contact"> Contact</a>
           </li>
         </ul>
       </nav>
     </div>
+
     <div class="about-section container">
       <div class="row">
         <div class="col-lg-6">
@@ -76,12 +77,18 @@
               everything is well explained, homework and deadlines are good for
               keep focus.
             </p>
-            <a href="#" class="btn btn-branding">See My Work</a>
+            <a href="/work.html" class="btn btn-branding" title="My Work"
+              >See My Work</a
+            >
           </div>
         </div>
 
         <div class="col-lg-6">
-          <img src="images/profile-img.png" alt="" class="img-fluid" />
+          <img
+            src="images/profile-img.png"
+            alt="Kristin Holda"
+            class="img-fluid"
+          />
         </div>
       </div>
 
@@ -92,25 +99,53 @@
             <p class="text-muted">Let's work together</p>
           </div>
           <div>
-            <a href="" class="btn btn-branding mt-3"> Contact me </a>
+            <a
+              href="/contact.html"
+              class="btn btn-branding mt-3"
+              title="Contact Me"
+            >
+              Contact me
+            </a>
           </div>
         </div>
         <div class="d-flex justify-content-center mb-5">
-          <a href="mailto:patricia@gmail.com" class="email-link">
+          <a href="mailto:k.holda@yahoo.com" class="email-link">
             k.holda@yahoo.com
           </a>
         </div>
         <div class="social-links d-flex justify-content-center">
-          <a href="https://github.com/kristinholda" target="_blank">
+          <a
+            href="https://github.com/kristinholda"
+            target="_blank"
+            title="Github"
+          >
             <i class="fab fa-github" aria-hidden="true"></i>
           </a>
-          <a href="https://www.instagram.com/kristinholda/" target="_blank">
+          <a
+            href="https://www.instagram.com/kristinholda/"
+            target="_blank"
+            title="Instagram"
+          >
             <i class="fab fa-instagram" aria-hidden="true"></i>
           </a>
-          <a href="https://twitter.com/kristinholda" target="_blank">
+          <a
+            href="https://twitter.com/kristinholda"
+            target="_blank"
+            title="Twitter"
+          >
             <i class="fab fa-x-twitter" aria-hidden="true"></i>
           </a>
         </div>
+
+        <p class="text-center mt-5">
+          This website was coded by Kristin Holda, and is
+          <a
+            href="https://github.com/kristinholda/portfolio-site"
+            target="_blank"
+          >
+            open-sourced
+          </a>
+        </p>
       </footer>
     </div>
   </body>
